@@ -33,7 +33,10 @@
 	max-height: 480;
 }
 
-
+#bh {
+	font-size: 25px;
+	padding: 10px;
+}
 
 .column img {
   width: 100%;
