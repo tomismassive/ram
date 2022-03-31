@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head id="page">
+	<link rel="icon" href="assets/favicon.ico" type="image/ico">
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ram</title>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+</head>
+	<body>
+		<nav>
+			<ul>
+			<li><a href="index.html">
+			<img class="logo" src="assets/ramlogotransparentwhite.png" alt ="">
+		</a></li>
+			<li><a href="games.html">Games</a></li>
+			<li><a href="bh.html">Blooket</a></li>
+<li id="full" onclick="openFullscreen();">Fullscreen</li>
+			</ul>
+		</nav>
+<script>
+var elem = document.getElementById("page");
+function openFullscreen() {
+if (elem.requestFullscreen) {
+elem.requestFullscreen();
+} else if (elem.webkitRequestFullscreen) { /* Safari */
+elem.webkitRequestFullscreen();
+} else if (elem.msRequestFullscreen) { /* IE11 */
+elem.msRequestFullscreen();
+}
+}
+</script>
+		<div>
+			<center>
+				<iframe src="https://drive.google.com/file/d/0B-uFeCO4yCFIZXNnLUg3cVdiU3M/preview?resourcekey=0-s1hwC6vvc_w-Q2CRrpP08g" width="1280" height="720" frameBorder="0" allow="autoplay"></iframe>
+			</center>
+		</div>
+	</body>
+</html>
